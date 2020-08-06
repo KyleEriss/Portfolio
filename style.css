@@ -1,0 +1,182 @@
+@media all and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
+/*
+background, padding, and text-align
+*/
+header {
+  background-color: rgba(20, 10, 0, 0.822);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+/*
+font-family and font size
+*/
+header div h1 {
+  font-size: 90px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+header div h3 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*
+color
+*/
+header div h1, h3 {
+  color: #c8c8c8;
+  margin: 0;
+  padding: 10px;
+  line-height: 35px;
+}
+
+main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/*
+margin and height
+*/
+.picture {
+  height: auto;
+  display: block;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+
+main div h2 {
+  color: #1f0f00e3;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main div p {
+  color: #1f0f00e3;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+  width: 75%;
+}
+
+ul {
+  color: #1f0f00e3;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+ol {
+  color: rgb(28, 10, 192);
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 900;
+  width: 75%;
+}
+
+li{
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+.hrclass {
+  width: 75%;
+  height: 3px; 
+  background: #1f0f00e3;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+body {
+  background-color: #e7e6e4;
+}
+
+footer {
+  background-color: rgba(20, 10, 0, 0.822);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  margin-top: 50px;
+}
+
+.linkstyle {
+  color: green;
+}
+
+/*
+Styled links using pseudo-classes.
+*/
+a:link    { color:  blue;}
+a:visited { color: purple; }
+a:hover   { color: green; }
+a:active  { color: blue; }
+
+/*
+ Content Requirements
+
+This assignment will be reviewed by our team of graders. They will be looking to make sure that your portfolio website has the following:
+
+HTML that is semantic and valid
+
+CSS that has been written by you without the use of templates
+
+Content that is clear and readable
+
+An "intro" section that contains the following content:
+
+Who you are
+
+Where you are located
+
+An "about me" section that contains the following content:
+
+A description that demonstrates your passion for web development and your willingness to work with others
+
+A sentence or two that describes other interests you have outside of development
+
+A "contact" section that contains the following content:
+
+A link to your LinkedIn profile
+
+A link to your GitHub profile
+
+A link to your email (optional)
+
+Technical Requirements
+
+Your portfolio must be hosted on GitHub Pages, and must include the following technical elements:
+
+The following HTML elements
+doctype, html, head, body, meta, title,
+h1, h2, h3, p, link, ul, ol, img, a, hr
+
+Semantic containers like main, article, and footer.
+
+The following CSS properties:
+background, color, font-family, font-size,
+height, margin, padding, text-align
+
+Styled links using pseudo-classes
+
+Comments throughout your HTML and CSS
+*/
